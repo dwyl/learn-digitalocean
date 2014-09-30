@@ -36,3 +36,8 @@ they have *dramatically* simplified the process.
 ### Create Account
 
 > Visit: https://www.digitalocean.com and **Create Account**
+
+
+Enter your billing info (credit card):
+
+![digital ocean billing](http://i.imgur.com/VJGrSUA.png)
