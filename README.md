@@ -70,3 +70,32 @@ Finally, add your SSH key to the droplet and Click:
 Watch as DigitalOcean starts up your VM:
 
 ![Digital Ocean booting](http://i.imgur.com/vC9EJdU.png)
+
+
+Once this is started you should now see an *overview* of your VM:
+
+![Digital Ocean overview](http://i.imgur.com/lAqDb9A.png)
+
+Locate the IP Address of your VM and copy it into your clip-board
+
+Open your terminal application and login via SSH:
+
+![Digital Ocean Login SSH](http://i.imgur.com/u02XRfV.png)
+
+Now (while logged into the VM via SSH)
+run the following commands (in order) in your terminal:
+```sh
+apt-get update
+apt-get install -y git nodejs node npm
+npm install n -g
+n stable
+git clone https://github.com/nelsonic/ac.git
+cd ac
+npm install
+nodejs example/server.js
+```
+
+Now visit: IP-Address-of-Your-VM:Port-number
+e.g: http://178.62.49.216:3000
+
+![Autocomplete](http://i.imgur.com/Tf9jiwR.png)
