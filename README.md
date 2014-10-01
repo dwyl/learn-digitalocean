@@ -50,3 +50,23 @@ instructions to add your SSH keys *before* creating your
 "Droplet" (VM).
 
 ![DigitalOcean Add SSH Keys](http://i.imgur.com/5HNevKr.png)
+
+
+### Create your First "Droplet" (Virtual Machine)
+
+Pick the cheapest VM and which ever region is closest to you.
+(to reduce code/file upload time and web latency)
+
+![Create Droplet part 1](http://i.imgur.com/O2MiBam.png)
+
+Next, select your desired Operating System.
+(For simplicity we are choosing Ubuntu this time)
+
+![Create Droplet part 2](http://i.imgur.com/lXHc9va.png)
+
+Finally, add your SSH key to the droplet and Click:
+**Create Droplet!**
+
+Watch as DigitalOcean starts up your VM:
+
+![Digital Ocean booting](http://i.imgur.com/vC9EJdU.png)
