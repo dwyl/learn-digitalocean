@@ -41,3 +41,12 @@ they have *dramatically* simplified the process.
 Enter your billing info (credit card):
 
 ![digital ocean billing](http://i.imgur.com/VJGrSUA.png)
+
+### Add your SSH Key
+
+If you want to access your VM without having to remember
+(or copy-paste) a password, you will need to follow the
+instructions to add your SSH keys *before* creating your
+"Droplet" (VM).
+
+![DigitalOcean Add SSH Keys](http://i.imgur.com/5HNevKr.png)
