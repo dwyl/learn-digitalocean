@@ -1,7 +1,7 @@
-DigitalOcean-Setup
-==================
+![Digital Ocean Logo](http://i.imgur.com/VbLgu2p.jpg)
 
-Quick guide to getting a DigitalOcean account and launching your first app.
+
+A quick guide to getting a DigitalOcean account and launching your first Droplet (VM) with a simple Node.js APP.
 
 ## Why?
 
@@ -19,6 +19,9 @@ Because AWS is so last week.
 - A **simpler** way to deploy your apps/websites.
 - **Great performance**
 - ***Cheaper*** than AWS, Rackspace, etc. ([*transparent pricing*](https://www.digitalocean.com/pricing/))
+- Great dashboard for visualising resource usage (RAM/Disk/Network)
+- Simple [**API**](https://developers.digitalocean.com/) can be used to
+monitor your VMs and scale when required.
 
 ## What?
 
@@ -97,5 +100,7 @@ nodejs example/server.js
 
 Now visit: IP-Address-of-Your-VM:Port-number
 e.g: http://178.62.49.216:3000
+
+> Type a word and watch it auto-suggest!
 
 ![Autocomplete](http://i.imgur.com/Tf9jiwR.png)
