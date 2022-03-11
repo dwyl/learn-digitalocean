@@ -1,4 +1,4 @@
-![Digital Ocean Logo](http://i.imgur.com/VbLgu2p.jpg)
+![Digital Ocean Logo](https://i.imgur.com/VbLgu2p.jpg)
 
 
 A quick guide to getting a DigitalOcean account and launching your first Droplet (VM) with a simple Node.js APP.
@@ -30,7 +30,7 @@ they have *dramatically* simplified the process.
 
 #### Read More
 
-- http://en.wikipedia.org/wiki/DigitalOcean
+- https://en.wikipedia.org/wiki/DigitalOcean
 - https://www.digitalocean.com/features/technology
 
 
@@ -43,7 +43,7 @@ they have *dramatically* simplified the process.
 
 Enter your billing info (credit card):
 
-![digital ocean billing](http://i.imgur.com/VJGrSUA.png)
+![digital ocean billing](https://i.imgur.com/VJGrSUA.png)
 
 ### Add your SSH Key
 
@@ -52,7 +52,7 @@ If you want to access your VM without having to remember
 instructions to add your SSH keys *before* creating your
 "Droplet" (VM).
 
-![DigitalOcean Add SSH Keys](http://i.imgur.com/5HNevKr.png)
+![DigitalOcean Add SSH Keys](https://i.imgur.com/5HNevKr.png)
 
 
 ### Create your First "Droplet" (Virtual Machine)
@@ -60,30 +60,30 @@ instructions to add your SSH keys *before* creating your
 Pick the cheapest VM and which ever region is closest to you.
 (to reduce code/file upload time and web latency)
 
-![Create Droplet part 1](http://i.imgur.com/O2MiBam.png)
+![Create Droplet part 1](https://i.imgur.com/O2MiBam.png)
 
 Next, select your desired Operating System.
 (For simplicity we are choosing Ubuntu this time)
 
-![Create Droplet part 2](http://i.imgur.com/lXHc9va.png)
+![Create Droplet part 2](https://i.imgur.com/lXHc9va.png)
 
 Finally, add your SSH key to the droplet and Click:
 **Create Droplet!**
 
 Watch as DigitalOcean starts up your VM:
 
-![Digital Ocean booting](http://i.imgur.com/vC9EJdU.png)
+![Digital Ocean booting](https://i.imgur.com/vC9EJdU.png)
 
 
 Once this is started you should now see an *overview* of your VM:
 
-![Digital Ocean overview](http://i.imgur.com/lAqDb9A.png)
+![Digital Ocean overview](https://i.imgur.com/lAqDb9A.png)
 
 Locate the IP Address of your VM and copy it into your clip-board
 
 Open your terminal application and login via SSH:
 
-![Digital Ocean Login SSH](http://i.imgur.com/u02XRfV.png)
+![Digital Ocean Login SSH](https://i.imgur.com/u02XRfV.png)
 
 Now (while logged into the VM via SSH)
 run the following commands (in order) in your terminal:
@@ -103,4 +103,4 @@ e.g: http://178.62.49.216:3000
 
 > Type a word and watch it auto-suggest!
 
-![Autocomplete](http://i.imgur.com/Tf9jiwR.png)
+![Autocomplete](https://i.imgur.com/Tf9jiwR.png)
